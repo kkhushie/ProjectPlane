@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Delicious+Handrawn&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="main w-screen h-screen overflow-x-hidden bg-zinc-900 text-white">
+        <nav class="p-5 flex flex-row justify-around sticky top-0 bg-zinc-900 ">
+            <div class="logo flex items-center gap-2">
+                <h1 class="text-2xl font-semibold">ProjctPlane</h1>
+                <img src="./images/logo.png" alt="" class=" h-7">
+            </div>
+            <ul class="flex capitalize flex-row gap-5 text-xl text-zinc-500 ">
+                <li class="transition hover:text-white"><a href="#overview">overview</a></li>
+                <li class="transition hover:text-white"><a href="#plan">plan</a></li>
+                <li class="transition hover:text-white"><a href="#details">Setup</a></li>
+                <li class="transition hover:text-white"><a href="#code">Code</a></li>
+                <li class="transition hover:text-white"><a href="#footer">Socials</a></li>
+                <li class="transition hover:text-white"><a href="calender.html">Calender</a></li>
+            </ul>
+        </nav>
+        <div class="page0 w-screen bg-zinc-900 h-[90%] flex items-center justify-center flex-col" id="overview">
+            <div class="container flex flex-col justify-center items-center">
+                <h1 class=" text-center text-8xl p-5 font-semibold uppercase"> Group Study Organizer</h1>
+                <p class="px-40 text-lg text-center">
+
+                    Develop a platform to facilitate group study sessions and collaboration among
+                    students.
+                </p>
+                <div class=" flex">
+                <div class="container m-5 inline-block bg-zinc-800 p-5 rounded-lg w-[500px]">
+                    <h3 class="text-2xl font-semibold mb-2 text-zinc-300">
+                        Features:
+                    </h3>
+                    <ul class="text-zinc-500">
+                        <li>User authentication</li>
+                        <li>Create and join study groups</li>
+                        <li>Schedule group study sessions</li>
+                        <li>Shared resources and notes within groups</li>
+                        <li>Group chat or messaging feature</li>
+                    </ul>
+                </div>
+                <div class="container m-5 inline-block bg-zinc-800 p-5 rounded-lg w-[500px]">
+                    <h3 class="text-2xl font-semibold mb-2 text-zinc-300">
+                        Tech Stack:</h3>
+                        <ul class="text-zinc-500">
+                        <li>MongoDB: For storing group information and user data</li>
+                        <li>Express: For backend services</li>
+                        <li>React: For the user interface</li>
+                        <li>Node.js: For handling server requests</li>
+                    </ul>
+                </div>
+                
+                    
+            </div>
+            </div>
+        </div>
+        <div id="plan" class="page1 w-screen bg-zinc-900 flex items-center justify-center flex-col pb-20">
+            <h1 class="text-center p-3 text-3xl mb-10">Plan</h1>
+            <div class="container flex flex-row justify-around items-center">
+
+                <div class="box bg-zinc-800 inline-block p-5 rounded-lg">
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-yellow-200">Project Planning:
+                        </span>
+                        June 1 - June 7
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-green-400">Backend Setup:</span>
+                        June 8 - June 14
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-red-400">Frontend Setup:</span>
+                        June 15 - June 21
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-purple-400">User Authentication:</span>
+                        June 22 - June 28
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-blue-400">Group Management:</span>
+                        June 29 - July 5
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-pink-500">
+
+                            Study Sessions & Calendar:
+                        </span>
+                        July 6 - July 12
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-teal-400">
+                            File Uploads & Notes:
+                        </span>
+
+                        July 13 - July 19
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-orange-400">
+
+                            Real-Time Chat:
+                        </span>
+                        July 20 - July 26
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-red-500">
+
+                            Testing & Bug Fixes:
+                        </span>
+                        July 27 - August 2
+                    </h2>
+                    <h2 class="bg-zinc-900 text-xl my-3 p-3 rounded-lg">
+                        <span class="text-emerald-700">
+
+                            Deployment & Launch:
+                        </span>
+                        August 3 - August 9
+                    </h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="page2 pb-5 w-screen bg-zinc-900" id="details">
+            <h1 class="text-center p-3 text-3xl mb-20">Setup</h1>
+            <div class="images flex items-center justify-around">
+                <div class="elem">
+                    <img src="./images/frontend-setup.png" alt="">
+                </div>
+                <div class="elem">
+                    <img src="./images/backend-setup.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="page3 mt-20 w-screen bg-zinc-900 flex flex-col items-center justify-center" id="code">
+            <h1 class="text-center mt-20 p-3 text-3xl">Code</h1>
+            <div class="container my-20">
+                <h2 class=" text-2xl text-center mb-5">Installations</h2>
+                <div class="images flex gap-5 flex-col items-center justify-center">
+                    <img src="./images/frontend-installations.png" alt="">
+                    <img src="./images/backend-installations.png" alt="">
+                </div>
+            </div>
+        </div>
+        <footer id="footer" class="py-5 flex flex-row bg-zinc-800 justify-center">
+            <div class="footer-container flex  items-center justify-center gap-5">
+              <div class="social-links flex gap-5 flex-row">
+                <a href="https://twitter.com/khushiepal" class="flex items-center justify-center  rounded-[50%]" target="_blank" rel="noopener noreferrer">
+                  <img class="h-12 w-12" src="./images/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://github.com/kkhushie" class="flex items-center justify-center rounded-[80%] bg-white" target="_blank" rel="noopener noreferrer">
+                  <img class="h-12 w-12" src="./images/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/khushiepal" class="flex items-center justify-center rounded-[50%] bg-white" target="_blank" rel="noopener noreferrer">
+                  <img class="h-12 w-12" src="./images/linkedin.png" alt="LinkedIn">
+                </a>
+              </div>
+              <div class="copyright">
+                &copy; 2024 ProjectPlan Website. All rights reserved.
+              </div>
+            </div>
+          </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

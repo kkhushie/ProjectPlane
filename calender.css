@@ -1,0 +1,42 @@
+*{
+    font-family:"Roboto Mono", monospace;
+}
+
+.calendar {
+    width: 350px;
+    background: rgb(36, 36, 36);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .month {
+    text-align: center;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .day.completed {
+    background-color: rgb(0, 255, 0);
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .day.checked::after {
+    position: absolute;
+    top: -15%;
+    left: 30%;
+    color: rgb(81, 255, 81);
+    content: '✔';
+    font-size: 30px;
+  }
+  

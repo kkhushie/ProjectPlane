@@ -1,0 +1,26 @@
+*{
+    font-family: "Roboto Mono", monospace;
+ 
+    scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+        border-radius: 25px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #bcbcbc;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
